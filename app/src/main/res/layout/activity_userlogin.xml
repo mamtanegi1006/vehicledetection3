@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+     android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".userlogin">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+        <LinearLayout
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            android:layout_width="350dp"
+            android:layout_height="400dp">
+            <EditText
+                android:layout_marginTop="20dp"
+                android:hint="Enter User Name"
+                android:background="#ffffff"
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="number"
+                />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:hint="Enter your Phoneno"
+                android:background="#ffffff"
+                android:id="@+id/userid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="number"
+                  />
+                <EditText
+                    android:hint="Enter your pasword"
+                    android:layout_marginTop="20dp"
+                android:id="@+id/password"
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="text" />
+            <Button
+                android:background="#ec6363"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/login"
+                android:text="login"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:background="#ec6363"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="forget password"/>
+               </LinearLayout>
+        </ScrollView>
+        <Button
+            android:background="#ec6363"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="160dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="sign up"/>
+
+</RelativeLayout>
